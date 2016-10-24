@@ -1,0 +1,4 @@
+*.log
+00-example-assignment/target
+.idea
+*.class
