@@ -7,7 +7,7 @@
 [debug] == resolving dependencies for default#example_2.10;0.1-SNAPSHOT [compile]
 [debug] == resolving dependencies default#example_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@23b5ee62
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@39fa0659
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.5
 [debug] 	found org.scala-lang#scala-library;2.10.5 in sbt-chain
 [debug] 	[2.10.5] org.scala-lang#scala-library;2.10.5
@@ -131,7 +131,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.5!scala-reflect.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.5!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 354ms :: artifacts dl 8ms
+[debug] :: resolution report :: resolve 200ms :: artifacts dl 9ms
 [debug] 	report for default#example_2.10;0.1-SNAPSHOT compile produced in /home/ian/scala/example/target/resolution-cache/reports/default-example_2.10-compile.xml
 [debug] 	report for default#example_2.10;0.1-SNAPSHOT runtime produced in /home/ian/scala/example/target/resolution-cache/reports/default-example_2.10-runtime.xml
 [debug] 	report for default#example_2.10;0.1-SNAPSHOT test produced in /home/ian/scala/example/target/resolution-cache/reports/default-example_2.10-test.xml
@@ -145,5 +145,5 @@
 [debug] 	report for default#example_2.10;0.1-SNAPSHOT docs produced in /home/ian/scala/example/target/resolution-cache/reports/default-example_2.10-docs.xml
 [debug] 	report for default#example_2.10;0.1-SNAPSHOT pom produced in /home/ian/scala/example/target/resolution-cache/reports/default-example_2.10-pom.xml
 [debug] 	report for default#example_2.10;0.1-SNAPSHOT scala-tool produced in /home/ian/scala/example/target/resolution-cache/reports/default-example_2.10-scala-tool.xml
-[debug] 	resolve done (354ms resolve - 8ms download)
+[debug] 	resolve done (200ms resolve - 9ms download)
 [info] Done updating.

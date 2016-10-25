@@ -1,9 +1,8 @@
-
+import scala.annotation.tailrec
 
 object session {
 
   def abs(x: Double) = if(x<0) -x else x
-
   def sqrtIter(guess: Double, x: Double): Double = {
     println("testing >> " + guess)
     if(isGoodEnough(guess, x)) guess
@@ -18,6 +17,14 @@ object session {
     (guess + x / guess) / 2
 
   def sqrt(x: Double) = sqrtIter(1.0, x)
+//  sqrt(1.0e50)
 
-  sqrt(1.0e50)
+  def factorial(n: Int) : Int = {
+    def loop(acc: Int, n: Int): Int =
+      if(n==0) acc
+      else loop(acc*n, n-1)
+
+    loop(1,n)
+  }
+  factorial(4)
 }
