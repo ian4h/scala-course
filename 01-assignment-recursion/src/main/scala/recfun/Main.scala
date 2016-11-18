@@ -65,5 +65,10 @@ object Main {
   def countChange(money: Int, coins: List[Int]): Int = {
     if(money == 0 || coins.isEmpty) 0
     else 1
+
+    def loop(money: Int, coins: List[Int]): Int = {
+
+
+    }
   }
 }
